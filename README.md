@@ -21,7 +21,7 @@ it [here](https://pokemon-app-bv8.pages.dev)
 
 
 ## 🚀 About Me
-I'm a full stack developer...
+Howdy! My name's Quentin and I'm a freelance Software Engineer and Game Designer. I have been developing games all my life and making websites just as long. For websites/applications I generally work in the MERN stack but can learn any stack that comes my way fairly quickly.
 
 
 ## Authors
