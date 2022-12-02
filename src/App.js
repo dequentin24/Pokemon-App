@@ -41,7 +41,10 @@ function App() {
     
      <div className="pokemon-container">
        <div className="all-container">
-    {//map out all pokemon
+    {   
+    
+    //map out all pokemon
+    
     }
           {allPokemons.map((pokemon,index)=> 
                            {//data collected through the thumbnail
