@@ -43,7 +43,7 @@ function App() {
        <div className="all-container">
     {   
     
-    //map out all pokemon
+    /* map out all pokemon */
     
     }
           {allPokemons.map((pokemon,index)=> 
