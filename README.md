@@ -1,3 +1,16 @@
+# My Pokemon App!
+
+# Why did I make this app?
+I grew up watching pokemon and i've always loved the games. I wanted to just see if i could even all the api to show the data needed to make this. It was a resounding success.
+
+# Hows its made
+I created this to help me with using API's All I did was call the api and placed the attributes from the thumbnail component to the main app. I then made the funky looking css with a tutorial.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
