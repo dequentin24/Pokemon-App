@@ -6,14 +6,19 @@ import PokemonThumbnail from "./Components/PokemonThumbnail";
 
 
 function App() {
+  //set pokemons
   const [allPokemons,setAllPokemons] = useState([]);
-  const [loadPoke,setLoadPoke] = useState('https://pokeapi.co/api/v2/pokemon?limit=20');
+  
+  const [loadPoke,setLoadPoke] = useState('https://pokeapi.co/api/v2/pokemon?limit=20'); //get api
+  
+  //call api, its asyncronous so we do async/await
   const getAllPokemons = async () =>{
     const res = await fetch(loadPoke)
     const data = await res.json()
     setLoadPoke(data.next)
    
     function createPokemonObject(result){
+      //loop through pokemon names
       result.forEach(async (pokemon) => {
         const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`)
         const data = await res.json();
@@ -34,6 +39,7 @@ function App() {
      <div className="pokemon-container">
        <div className="all-container">
           {allPokemons.map((pokemon,index)=> 
+  //data collected through the thumbnail
                  <PokemonThumbnail
                   id = {pokemon.id}
                   name = {pokemon.name}
