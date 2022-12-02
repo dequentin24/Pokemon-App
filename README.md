@@ -37,6 +37,6 @@ Howdy! My name's Quentin and I'm a freelance Software Engineer and Game Designer
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 
-# Hi, My name is Quentin and i (try) to make cool stuff! Thanks for reading!👋
+# Hi, My name is Quentin and I (try) to make cool stuff! Thanks for reading!👋
 
 
